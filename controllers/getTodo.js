@@ -15,6 +15,7 @@ exports.getTodo = async (req, res) => {
       message: "Entire Todo is fetched",
     });
   } catch (err) {
+    // negative response
     console.error(err);
     console.log(err);
     res.status(500).json({
@@ -47,6 +48,7 @@ exports.getTodoById = async (req, res) => {
       message: `Todo ${id} data successfully fetched`,
     });
   } catch (err) {
+    // negative response
     console.error(err);
     console.log(err);
     res.status(500).json({

@@ -2,7 +2,6 @@
 const Todo = require("../models/Todo");
 
 //define route handler
-
 exports.createTodo = async (req, res) => {
   try {
     // extract title and descrition from req body
@@ -18,6 +17,7 @@ exports.createTodo = async (req, res) => {
       message: "Entry Created Successfully",
     });
   } catch (err) {
+    // negative response
     console.error(err);
     console.log(err);
     res.status(500).json({
