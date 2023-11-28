@@ -1,5 +1,5 @@
 // import the model
-const Todo = require("../models/Todo");
+const Todo = require("../models/todoModel");
 
 //define route handler
 exports.updateTodo = async(req, res) => {

@@ -1,9 +1,9 @@
 // import the model
-const Todo = require("../models/Todo");
+const Todo = require("../models/todoModel");
 
 //define route handler
 
-exports.getTodo = async (req, res) => {
+exports.getAllTodos = async (req, res) => {
   try {
     // fetch all todo items from database
     const todos = await Todo.find({});
