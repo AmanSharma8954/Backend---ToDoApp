@@ -11,6 +11,15 @@ This is the backend implementation for a Todo App where users can create, update
 - MongoDB
 - RESTful API
 
+## How to use
+```
+  git clone git@github.com:AmanSharma8954/Backend---ToDoApp.git
+
+  npm i
+
+  npm run dev
+```
+
 ## Tasks
 
 This project involves implementing the following tasks:
